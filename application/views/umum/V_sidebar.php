@@ -18,16 +18,7 @@
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">OPTION</li>
         <li class="active treeview">
-          <a href="#">
-            <i class="fa fa-book"></i> <span>Produk</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-            <li class=""><a href="<?php echo base_url('C_produk'); ?>"><i class="fa fa-circle-o"></i> Daftar Produk</a></li>
-          </ul>
-        </li>
+    
         <li class="treeview">
           <a href="#">
             <i class="fa fa-files-o"></i>

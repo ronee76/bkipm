@@ -22,11 +22,8 @@
           <!-- small box -->
           <div class="small-box bg-aqua">
             <div class="inner">
-               <?php 
-              $hitung_user = $this->db->get('produk')->num_rows();
-                echo "<h3>$hitung_user</h3>";
-             ?>
-
+                <h3>102</h3>
+           
               <p>Data Produk</p>
             </div>
             <div class="icon">

@@ -7,7 +7,7 @@
     <div class="pull-right hidden-xs">
       <b>Kecepatan server</b> <strong>{elapsed_time}</strong> seconds.
     </div>
-    <strong>Copyright 2017 <a href="<?php echo base_url(); ?>">Dedy Ibrahim</a>.</strong> All rights
+    <strong>Copyright 2017 <a href="<?php echo base_url(); ?>">BKIPM Mamuju</a>.</strong> All rights
     reserved.
   </footer>
 <!-- jQuery 3 -->
