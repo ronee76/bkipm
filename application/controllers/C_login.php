@@ -55,7 +55,7 @@ public function login(){
         
         $this->session->sess_destroy();
         
-        redirect('C_login');
+        redirect('C_home');
         
     }
 
