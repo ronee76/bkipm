@@ -49,19 +49,18 @@
         </div>
         <!-- ./col -->
         
-        <?php 
+    <?php 
         $valid =  $this->session->all_userdata();
-    $level    = $valid['level'];
+        $level    = $valid['level'];
            if($level == 'admin')
-{
- 
+        {
         ?>
         <div class="col-lg-3 col-xs-6">
           <!-- small box -->
           <div class="small-box bg-yellow">
             <div class="inner">
-             <?php 
-              $hitung_user = $this->db->get('user')->num_rows();
+         <?php 
+             $hitung_user = $this->db->get('user')->num_rows();
                 echo "<h3>$hitung_user</h3>";
              ?>
               
@@ -75,7 +74,27 @@
         </div>
  <?php
 }else{
-    echo "Anda TIdak memiliki akses";
+?>
+    <div class="col-lg-3 col-xs-6">
+          <!-- small box -->
+          <div class="small-box bg-yellow">
+            <div class="inner">
+         <?php 
+             $hitung_user = $this->db->get('user')->num_rows();
+                echo "<h3>$hitung_user</h3>";
+             ?>
+              
+              <p>Message From admin</p>
+            </div>
+            <div class="icon">
+              <i class="fa fa-envelope-o"></i>
+            </div>
+            <a href="<?php echo base_url('C_daftar'); ?>" class="small-box-footer">Lihat data <i class="fa fa-arrow-circle-right"></i></a>
+          </div>
+        </div>      
+        
+<?php
+
 }
         
         ?>
