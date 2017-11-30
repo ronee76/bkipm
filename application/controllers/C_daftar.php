@@ -184,7 +184,7 @@ function hapus(){
     
  }
 
- public function lihat_user(){
+public function lihat_user(){
      
     $valid =  $this->session->all_userdata();
     $level    = $valid['level'];
