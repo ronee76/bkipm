@@ -1,13 +1,15 @@
 <?php
+
 $valid =  $this->session->all_userdata();
 
 $level    = $valid['level'];
-$status   =$valid['status'];
+$status   = $valid['status'];
 $gambar   =$valid['gambar'];
 
 if($level == 'admin' || $level == 'user')
-{
- 
+
+ {
+
 ?>
 
 <!DOCTYPE html>

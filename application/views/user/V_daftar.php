@@ -97,7 +97,7 @@
                 $('#example1').DataTable( {
                     "processing": true,
                     "serverSide": true,
-                    "ajax": "http://localhost/sisco/C_daftar/data_user"
+                    "ajax": "<?php echo base_url() ;?>C_daftar/data_user"
                 } );
             } );
     </script>

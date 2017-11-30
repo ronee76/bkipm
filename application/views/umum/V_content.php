@@ -48,6 +48,14 @@
           </div>
         </div>
         <!-- ./col -->
+        
+        <?php 
+        $valid =  $this->session->all_userdata();
+    $level    = $valid['level'];
+           if($level == 'admin')
+{
+ 
+        ?>
         <div class="col-lg-3 col-xs-6">
           <!-- small box -->
           <div class="small-box bg-yellow">
@@ -65,6 +73,13 @@
             <a href="<?php echo base_url('C_daftar'); ?>" class="small-box-footer">Lihat data <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
+ <?php
+}else{
+    echo "Anda TIdak memiliki akses";
+}
+        
+        ?>
+        
         <!-- ./col -->
         <div class="col-lg-3 col-xs-6">
           <!-- small box -->

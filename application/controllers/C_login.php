@@ -9,6 +9,7 @@ class C_login extends CI_Controller {
         $this->load->helper('form');
         $this->load->model('M_login');
         $this->load->library('session');
+        
         $this->load->helper('url');
         $this->load->database();
 
@@ -30,24 +31,23 @@ public function login(){
  if($tampil==1 ){
      
      $setsesi = $this->db->get_where('user',['email'=>$email]);
-     foreach ($setsesi->result() as $value){
-       $sess_data= array(
-       
+     foreach ($setsesi->result() as $value) {
+         
+         $sess_data= array(
             'nama'              =>$value->nama,
-            'level'             =>$value->level,
-            'status'            =>$value->status,
+            'level'                =>$value->level,
+            'status'             =>$value->status,
             'tanggal_daftar'    =>$value->tanggal_daftar,
             'gambar'            =>$value->gambar,
                        );
        $this->session->set_userdata($sess_data);
-       }
-       redirect('C_dashboard');
+     }
+     
+    redirect('C_dashboard');
     }else{
        redirect('C_login');
      }
  
-}else{
-$this->load->view('V_login');
 }
 
 }

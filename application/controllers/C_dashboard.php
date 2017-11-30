@@ -9,6 +9,7 @@ class C_dashboard extends CI_Controller {
         $this->load->helper('form');
         $this->load->model('M_login');
         $this->load->library('session');
+        
         $this->load->helper('url');
         $this->load->database();
 

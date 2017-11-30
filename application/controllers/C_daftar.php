@@ -10,7 +10,6 @@ class C_daftar extends CI_Controller {
         $this->load->model('M_login');
         $this->load->model('M_input_customer');
         $this->model =$this->M_input_customer; 
-            
         $this->load->library('session');
         $this->load->library('upload');
         $this->load->library('form_validation');
@@ -20,21 +19,23 @@ class C_daftar extends CI_Controller {
 
 }	
 public function index(){
-    $valid =  $this->session->all_userdata();
-    $level    = $valid['level'];
- 
-if($level == 'admin')
-{
+
  
     $this->load->view('umum/V_header');
     $this->load->view('umum/V_sidebar');
     $this->load->view('umum/V_content');
+        $valid =  $this->session->all_userdata();
+    $level    = $valid['level'];
+ 
+if($level == 'admin')
+{
     $this->load->view('user/V_daftar');
-    $this->load->view('umum/V_footer');
-}else{
+}    else {
     
   echo 'ANDA TIDAK MEMILIKI AKSES KEHALAMAN INI'  ; 
 }
+    $this->load->view('umum/V_footer');
+
 }
 public function daftar(){
     
