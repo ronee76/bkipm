@@ -122,16 +122,16 @@ p {
 	margin-top: 22px;
 	background-image: url(../img/white_logo.png);
 	display: inline-block;
-	width: 125px;
-	height: 32px;
+	width: 207px;
+	height: 83px;
 	background-repeat: no-repeat;
 }
 .header.active .navbar-brand .logo{
-	margin-top: 22px;
+	margin-top: -0px;
 	background-image: url(../img/black_logo.png);
 	display: inline-block;
-	width: 125px;
-	height: 32px;
+	width: 207px;
+	height: 83px;
 	background-repeat: no-repeat;
 }
 #main-nav {

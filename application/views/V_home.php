@@ -39,9 +39,9 @@
                 <div id="main-nav" class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
                         <li><a href="#" class="scroll-top">Home</a></li>
-                        <li><a href="#" class="scroll-link" data-id="about">About Us</a></li>
+                        <li><a href="#" class="scroll-link" data-id="about">Aplikasi</a></li>
                         <li><a href="#" class="scroll-link" data-id="portfolio">Portfolio</a></li>
-                        <li><a href="#" class="scroll-link" data-id="blog">Blog</a></li>
+                        
                         <li><a href="#" class="scroll-link" data-id="contact">Contact Us</a></li>
                     </ul>
                 </div>
@@ -63,12 +63,10 @@
             <li class="selected first-slide">
                 <div class="cd-full-width">
                     <div class="tm-slide-content-div slide-caption">
-                        <span>Introduction to</span>
-                        <h2>Creative Meteor</h2>
-                        <p>Phasellus interdum tortor sem. Quisque sit amet condimentum sem. Phasellus luctus, felis sit amet pulvinar luctus.</p>
-                        <div class="primary-button">
-                            <a href="#" class="scroll-link" data-id="about">Discover More</a>
-                        </div>                           
+                        <h3>PORTAL</h3>
+                        <h2>BKIPM MAMUJU</h2>
+                        <p>BADAN KARANTINA IKAN, PENGENDALIAN MUTU DAN KEAMANAN HASIL PERIKANAN</p>
+                                            
                     </div>                   
                 </div> <!-- .cd-full-width -->
             </li>
@@ -77,11 +75,9 @@
                 <div class="cd-full-width">
                     <div class="tm-slide-content-div slide-caption">
                         <span>We Are Perfect Staffs</span>
-                        <h2>Our Team Members</h2>
-                        <p>Donec dolor ipsum, laoreet nec metus non, tempus elementum massa. Donec non elit rhoncus, vestibulum enim sed, rutrum arcu.</p>
-                        <div class="primary-button">
-                            <a href="#">Read More</a>
-                        </div>                        
+                        <h2>BADAN KARANTINA IKAN, PENGENDALIAN MUTU DAN KEAMANAN HASIL PERIKANAN</h2>
+                        <p>Perfect for what we needed and Staff was amazing!</p>
+                                           
                     </div>                     
                 </div> <!-- .cd-full-width -->
             </li>
@@ -90,11 +86,9 @@
                 <div class="cd-full-width">
                     <div class="tm-slide-content-div slide-caption">
                         <span>Design is a hobby</span>
-                        <h2>Responsive Layout</h2>
-                        <p>Integer ut dolor eget magna congue gravida ut at arcu. Vivamus maximus neque quis luctus tempus. Vestibulum consequat.</p>
-                        <div class="primary-button">
-                            <a href="#">View Details</a>
-                        </div>                           
+                        <h2>BKIPM MAMUJU</h2>
+                        <p>Website Resmi Stasiun KIPM Kelas II Mamuju, Badan Karantina Ikan, Pengendalian Mutu dan Keamanan Hasil Perikanan, Kementerian Kelautan dan Perikanan</p>
+                                              
                     </div>                         
                 </div> <!-- .cd-full-width -->
             </li>
@@ -118,74 +112,58 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-heading">
-                        <h4>What We Do</h4>
+                        <h4>Aplikasi</h4>
                         <div class="line-dec"></div>
                     </div>
                 </div>
             </div>
+            
             <div class="row">
+                <a href="<?php echo base_url('C_login'); ?>">
                 <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="service-item first-service">
                         <div class="icon"></div>
-                        <h4>Easy Customizations</h4>
-                        <p>Meteor is free HTML website template by Tooplate. Feel free to use this layout for your project.</p>
+                        <h4>Wilker Mamuju</h4>
+                        <p>Data lalulintas Wilayah Kerja Mamuju
+
+</p>
                     </div>
                 </div>
+                </a>
                  <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="service-item second-service">
                         <div class="icon"></div>
-                        <h4>Creative Ideas</h4>
-                        <p>Biodiesel schltz suculents phone cliche ramps snackwave coloring book tumeric poke, typewriter.</p>
+                        <h4>Belum Di Bangun</h4>
+                        <p>Project Masih Belum di bangun
+                            <br>
+                        <br>
+                        
+                        </p>
                     </div>
                 </div>
                  <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="service-item third-service">
                         <div class="icon"></div>
-                        <h4>Good Profit</h4>
-                        <p>Biodiesel schltz suculents phone cliche ramps snackwave coloring book tumeric poke, typewriter.</p>
+                        <h4>Belum Di Bangun</h4>
+                        <p>Project Masih Belum di bangun
+                            <br>
+                            <br></p>
                     </div>
                 </div>
                  <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="service-item fourth-service">
                         <div class="icon"></div>
-                        <h4>Open To Public</h4>
-                        <p>Biodiesel schltz suculents phone cliche ramps snackwave coloring book tumeric poke, typewriter.</p>
+                         <h4>Belum Di Bangun</h4>
+                        <p>Project Masih Belum di bangun
+                            <br>
+                            <br></p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div id="what-we-do">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="left-text">
-                        <h4>New offers just arrived,<br>Get it now and take profit.</h4>
-                        <p>Gochujang pitchfork post-ironic hammock kombucha fanny pack cronut. Raw denim chicharrones semiotics af truffaut pinterest. Distillery letterpress authentic adaptogen. Meditation schlitz humblebrag photo booth celiac cliche chartreuse.<br><br>Pinterest 90's wolf celiac dreamcatcher listicle deep v semiotics. Intelligentsia literally meggings trust fund put a bird on it. Shoreditch crucifix artisan pug shaman twee. Health goth bicycle rights retro iPhone.</p>
-                        <ul>
-                            <li>
-                                <div class="white-button">
-                                    <a href="#" class="scroll-link" data-id="portfolio">Discover More</a>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="primary-button">
-                                    <a href="#">Purchase Now</a>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="right-image">
-                        <img src="<?php echo base_url('assets/'); ?>img/what-we-do-right-image.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
+  
 
     <div id="portfolio" class="page-section">
         <div class="content-wrapper">
@@ -298,70 +276,6 @@
     </div>
 
 
-    <div id="blog" class="page-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-heading">
-                        <h4>Our Blog Posts</h4>
-                        <div class="line-dec"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="blog-item b1">
-                        <div class="thumb">
-                            <img src="<?php echo base_url('assets/'); ?>img/blog_01.jpg" alt="">
-                            <div class="text-content">
-                                <h4>Delecioius Food Served</h4>
-                                <span>Posted: <em>George</em>  /  Date: <em>11 Aug 2017</em>  /  Category: <em>Design</em></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="blog-item second-blog b2">
-                        <div class="thumb">
-                            <img src="<?php echo base_url('assets/'); ?>img/blog_02.jpg" alt="">
-                            <div class="text-content">
-                                <h4>Creative &amp; Clean Workspace</h4>
-                                <span>Posted: <em>Kerley</em>  /  Date: <em>24 Jul 2017</em>  /  Category: <em>Artwork</em></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="blog-item b3">
-                        <div class="thumb">
-                            <img src="<?php echo base_url('assets/'); ?>img/blog_03.jpg" alt="">
-                            <div class="text-content">
-                                <h4>Crashed Plane Captured</h4>
-                                <span>Posted: <em>Johnny</em>  /  Date: <em>16 Jul 2017</em>  /  Category: <em>Branding</em></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="pop">
-                      <span>✖</span>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis neque lacinia, porta nulla in, pellentesque ante. Vivamus in luctus mauris, non pharetra nibh. Morbi porttitor nisl sit amet velit pellentesque consequat. Etiam blandit libero turpis, id vehicula leo posuere a. In vel massa sollicitudin, tincidunt massa et, tincidunt ex.<br><br>Duis volutpat condimentum mollis. Sed eleifend libero ut viverra mattis. Suspendisse consectetur diam dolor, ut efficitur sem finibus vel. Vivamus tristique lacus sed dapibus varius. Fusce pharetra, quam quis congue pretium, ante dui imperdiet ipsum, eget lobortis leo leo sed diam.</p>
-                    </div>
-                    <div class="pop2">
-                      <span>✖</span>
-                      <p>Praesent purus leo, aliquet et efficitur id, pulvinar scelerisque enim. Maecenas a arcu sagittis, ornare ante ut, suscipit lectus. Donec dolor ipsum, laoreet nec metus non, tempus elementum massa. Donec non elit rhoncus, vestibulum enim sed, rutrum arcu. Vestibulum et purus ac diam condimentum volutpat sed ac est. Phasellus interdum tortor sem. Quisque sit amet condimentum sem. Phasellus luctus, felis sit amet pulvinar luctus, lectus dui mattis tellus, et placerat nunc ante at lacus.<br><br>Vivamus vestibulum, nisi sed placerat accumsan, felis felis venenatis tortor, vel condimentum arcu neque vel mauris. Donec a magna gravida, egestas libero non, molestie massa. Integer ut dolor eget magna congue gravida ut at arcu. Vivamus maximus neque quis luctus tempus. Vestibulum consequat a justo id feugiat. </p>
-                    </div>
-                    <div class="pop3">
-                      <span>✖</span>
-                      <p>Nullam rhoncus, orci et iaculis sodales, quam lectus suscipit augue, ut auctor massa dolor id metus. Nulla porta ut diam sodales dignissim. Ut sit amet augue vel justo laoreet dignissim. Maecenas vitae sollicitudin eros. In commodo placerat cursus. Quisque malesuada, nisl ac lacinia commodo, justo eros maximus ex, quis cursus odio erat at neque. Sed tincidunt eu dolor eget posuere.<br><br>Curabitur sit amet elit sit amet ligula eleifend aliquam quis eget quam. Mauris id mi nec justo venenatis tincidunt at ac massa. Sed et volutpat nunc. Quisque at urna quam. Duis sit amet neque eget quam iaculis iaculis. Quisque maximus porta elementum. Nam ac mattis erat, quis accumsan odio.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <div id="fun-facts">
         <div class="container">
             <div class="row">
@@ -446,7 +360,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="copyright-text">
-                        <p>Copyright &copy; 2017 Company Name 
+                        <p>Copyright &copy; 2017 BKIPM MAMUJU 
                         
                         - Design: <a href="http://www.tooplate.com" target="_parent">Tooplate</a></p>
                     </div>
